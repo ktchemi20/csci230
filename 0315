@@ -1,0 +1,27 @@
+03/15 notes:
+C program vs java programs —> 
+C - 
+- can be very tiny
+- faster
+- prerequisite is low
+- can directly manipulate memory
+- double edge sword: powerful but insecure 
+
+Java -
+- slow
+- requires OS and a java virtual machine
+- not good for small devices; better for systems (like banking systems)
+
+other notes: 
+- declare a pointer-type of variable named p, and initialize to the address of variable a.
+- in a declaration, “*” stands for “pointer-type”. afterwards, “*” means “deference” retrieving the value at the memory location, using the syntax *p
+
+int main (){
+	int a = 0;
+	int *p = &a;
+	printf (“%ld” , (long)(p));
+	return 0;
+
+}
+
+malloc = memory location
