@@ -60,4 +60,6 @@ System.out.println(“sales = ” + sales);
 
 }
 
-because IEEE754 single precision con not distinguish 17000000 and 17000001. These two numbers have the same bit pattern!
+because IEEE754 single precision can not distinguish 17000000 and 17000001. These two numbers have the same bit pattern!
+
+
