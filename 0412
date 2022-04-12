@@ -1,0 +1,35 @@
+04/12 notes:
+
+address *4 
+
+PC + 4 —> 100010000000100000000010000001110
+1000100010000010000000001000000
+
+This scheme makes the effort. address to be 32-bit, quite large
+
+beq rl r2 16-bit-number
+bne
+if (x1 == x2)
+
+{
+
+many lines
+100000 lines
+
+} else {
+
+}
+
+16 bit number: 1000000000100001
+(leading 1 determines this number is negative)
+sign-extension (keep the sign / preserve sign): 1111111111111111000000000100001
+(this number is negative 32-bit)
+
+if original positive: 0100000000100001
+sign extension: 00000000000000001000000000100001
+
+16-bit: x
+sign extension: 0000000000000000 16bit x 
+
+left shift 2: 
+0000000000000000 16bit x 00
